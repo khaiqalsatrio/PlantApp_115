@@ -7,7 +7,7 @@ import 'package:plant_app/screens/home/components/recomend_plants.dart';
 import 'package:plant_app/screens/home/components/title_with_more_bbtn.dart';
 
 class Body extends StatefulWidget {
-  const Body({Key? key}) : super(key: key);
+  const Body({super.key});
 
   @override
   State<Body> createState() => _BodyState();
